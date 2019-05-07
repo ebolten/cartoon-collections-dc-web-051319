@@ -28,7 +28,9 @@ def find_the_cheese(snacks)
 
   snacks.find do |item|
     x = snacks.index(item)
+    x = x.to_i
     y = cheese_types.index(item)
+    y = y.to_i
     snacks[x] == cheese_types[y]
     end
 end
