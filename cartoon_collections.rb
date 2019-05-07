@@ -31,5 +31,4 @@ def find_the_cheese(snacks)
     y = cheese_types.index(item)
     snacks[x] == cheese_types[y]
     end
-
 end
