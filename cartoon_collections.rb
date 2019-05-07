@@ -13,7 +13,6 @@ def summon_captain_planet(calls)
     item.capitalize
     item.last = "#{item}!"
   end
-  return calls
 end
 
 def long_planeteer_calls# code an argument here
