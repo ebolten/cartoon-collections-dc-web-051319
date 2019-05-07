@@ -26,8 +26,10 @@ def find_the_cheese(snacks)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  snacks.find do |i|
-    snacks[i] == cheese_types[i]
+  snacks.find do |item|
+    x = snacks.index(item)
+    y = cheese_types.index(item)
+    snacks[x] == cheese_types[y]
     end
 
 end
