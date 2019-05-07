@@ -29,6 +29,5 @@ def find_the_cheese(snacks)
   snacks.find do |cheese|
     snacks[i] == cheese_types[i]
     end
-  end
 
 end
