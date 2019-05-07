@@ -25,8 +25,9 @@ end
 def find_the_cheese(snacks)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  snacks.find do |cheese|
-    snacks.contains(cheese_types)
+
+  snacks.find do |i|
+    snacks[i] == cheese_types[i]
     end
 
 end
