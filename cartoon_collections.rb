@@ -10,8 +10,8 @@ end
 def summon_captain_planet(calls)
   # Your code here
   calls.collect do |item|
-    item.capitalize
-    item.last = "#{item}!"
+    item.capitalize!
+    item[-1] = "#{item}!"
   end
 end
 
