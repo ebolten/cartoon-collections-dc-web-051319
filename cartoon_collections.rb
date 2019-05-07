@@ -19,6 +19,7 @@ def long_planeteer_calls(calls)
   # Your code here
   calls.any? do |item|
     item.length > 2
+  end
 
 end
 
