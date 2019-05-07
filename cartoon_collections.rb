@@ -3,6 +3,7 @@ def roll_call_dwarves(names)
   hashDwarfs = Hash.new
   names.each_with_index do |name, index|
     hashDwarfs[name] = (index + 1)
+    hashDwarfs[index] = "*#{name}"
   end
   return print "#{hashDwarfs}\n"
 end
