@@ -1,6 +1,6 @@
 def roll_call_dwarves(names)
   # Your code here
-  hashDwarfs = hash.new
+  hashDwarfs = Hash.new
   names.each do |name, index|
     hashDwarfs[item] = index + 1
   end
