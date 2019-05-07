@@ -9,7 +9,7 @@ end
 
 def summon_captain_planet(calls)
   # Your code here
-  calls.each do |item|
+  calls.collect do |item|
     item.capitalize
     item.last = "#{item}!"
   end
