@@ -28,7 +28,7 @@ def find_the_cheese(snacks)
 
   snacks.find do |cheese|
     for i in 0..cheese_types.length - 1
-      snacks[i] = cheese_types[i]
+      snacks[i] == cheese_types[i]
     end
   end
 
